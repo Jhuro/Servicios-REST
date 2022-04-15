@@ -112,6 +112,8 @@ public class ServicioPersistenciaMock implements IServicioPersistenciaMockRemote
             usuarios.add(new Usuario("admin", "adminadmin", TipoUsuario.Administrador));
             usuarios.add(new Usuario("client", "clientclient", TipoUsuario.Cliente));
 
+            ofertas = new ArrayList<Oferta>();
+            
             ofertas.add(new Oferta(0L, "client", 1L, 100000.0));
             ofertas.add(new Oferta(0L, "client", 2L, 110000.0));
             
